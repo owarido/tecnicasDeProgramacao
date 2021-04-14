@@ -1,2 +1,2 @@
 # tecnicasDeProgramacao
-Some programs made in Java
+Programas feitos em Java durante a disciplina de "Técnicas de Programação".
