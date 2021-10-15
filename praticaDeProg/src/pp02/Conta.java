@@ -12,11 +12,11 @@ public class Conta {
     }   
     
     public void creditar(double valor){
-        saldo = saldo + valor;
+        saldo += valor;
     }
     
     public void debitar(double valor){
-        saldo = saldo - valor;
+        saldo -= valor;
     }
     
     public String getNumero(){
