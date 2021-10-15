@@ -38,14 +38,9 @@ public class Layout {
         
         // Grid Layout: Dispõe os componentes em grade
         frame.setLayout(new GridLayout(2, 4)); // 2 é o número de linhas e 4 é o de colunas
-        frame.add(new JButton("Comp 1"));
-        frame.add(new JButton("Comp 2"));
-        frame.add(new JButton("Comp 3"));
-        frame.add(new JButton("Comp 4"));
-        frame.add(new JButton("Comp 5"));
-        frame.add(new JButton("Comp 6"));
-        frame.add(new JButton("Comp 7"));
-        frame.add(new JButton("Comp 8")); 
+        for (int i = 1; i < 9; i++) {
+            frame.add(new JButton("Comp " + i));
+        }
         
         /*----------------------------------------------------------------------------------------------------------------------*/
         

@@ -62,11 +62,9 @@ public class VectorExample {
         Vector<Integer> vec_tor = new Vector<Integer>();
         
         // Usando método add() para adicionar elementos no Vector
-        vec_tor.add(12);
-        vec_tor.add(23);
-        vec_tor.add(22);
-        vec_tor.add(10);
-        vec_tor.add(20);
+        for (int i = 0; i < 5; i++){
+            vec_tor.add(i + 10);
+        }
         
         // Exibindo o Vector
         System.out.println("Vector: " + vec_tor);
